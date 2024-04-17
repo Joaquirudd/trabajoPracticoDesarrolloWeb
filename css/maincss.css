@@ -174,15 +174,36 @@ a{    text-decoration: none;}
     font-size: xx-large;
 }
 
+.precio{
+    display: flex;
+    justify-content: start;
+}
+
+.precio p{
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .caracteristicas{
     display: flex;
-    padding-top: 100px;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 45px;
+}
+
+.caracteristicas a,h5{
+    margin-right: 3%;
 }
 
 .caracteristicas img{
-    width: 8%;
-    height: 8%;
+    width: 40px;
+    height: 40px;
 }
 
 /*  Quienes somos */
