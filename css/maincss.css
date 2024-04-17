@@ -1,7 +1,15 @@
+/* Index, Menu y footer de todas las paginas */
+
 body{
     margin: 0;
     font-family: "Bungee", sans-serif;
     font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -37,23 +45,48 @@ body{
     height: 100px;
 }
 
+.indeximgtop{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.h1Imgtop{
+    margin: 0%;
+    padding-top: 200px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+
 .indexCol1{
     display: flex;
     justify-content: space-evenly;
-    margin: 40px;
+    margin-top: 20%;
+    padding: 50px;
 }
 
 .h1index{
     padding-top: 100px;
-    padding-right: 100px;
+    padding-right: 50px;
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
+.pIndexCol1{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 50px;
+    font-size: large;
+}
+
 .imgindex1{
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
 }
 
 .indexCol2{
@@ -63,21 +96,45 @@ body{
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: large;
 }
 
-.h2index{
+.pIndexCol2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: large;
+}
+
+
+.h2index{
+    margin-top: 10%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 400%;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.pIndexCol2{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
     text-align: center;
 }
 
 .imgindex2{
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
 }
 
 .footer{
+    margin-top: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -91,4 +148,135 @@ body{
 
 a{    text-decoration: none;}
 
+/* Alquilar */
 
+.casilla{
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: whitesmoke;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.casilla img{
+    padding-right: 5%;
+    width: 500px;
+    height: 400px;
+}
+
+.datos{
+    height: 400px;
+}
+
+.datos h4{
+    font-size: xx-large;
+}
+
+.caracteristicas{
+    display: flex;
+    padding-top: 100px;
+    justify-content: end;
+}
+
+.caracteristicas img{
+    width: 8%;
+    height: 8%;
+}
+
+/*  Quienes somos */
+
+.h2quienes-somos{
+    padding-top: 100px;
+    padding-right: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    width: 720px;
+    line-height: 1.1em;
+    color: #202020;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px #5c5c5c;
+
+ }
+ .mainquienes-somos{
+    margin-left: 50px;
+    font-family: "Open Sans", sans-serif;
+    width: 500px;
+    line-height: 30px;
+    color: #8d8b8b;
+    margin-top: 22px;
+
+ }
+
+ .img1-quienes-somos,.img2-quienes-somos,.img3-quienes-somos,.img4-quienes-somos{
+    width: 500px;
+}
+
+.img1-somos, .img2-somos, .img3-somos, .img4-somos{
+    width: 250px;
+    height: 200px;
+    margin: 2%;
+
+
+}
+.img1-somos{
+    margin-left: 65px;
+}
+
+
+.container-img-somos{
+    display: flex;
+    width: 100%;
+}
+
+/*Contacto*/
+
+.contactCol {
+    display: flex;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.contactDiv {
+    flex: 1;
+    padding-right: 20px; 
+    padding-left: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.imgcontact {
+    width: 50%;
+    align-self: flex-start; 
+}
+
+.pgts{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding:20px;
+}
+
+.form button{
+    margin-top: 5%;
+}
+
+.footerContact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #fcf6b1;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;   
+}

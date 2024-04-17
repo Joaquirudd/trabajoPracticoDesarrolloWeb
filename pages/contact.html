@@ -8,9 +8,17 @@
 
         <meta name="keywords" content="">
         <meta name="description" content="">
-        <title>Contacto</title>
+        <title>Comprar</title>
 
-        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="shortcut icon" href="../images/logot.png" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bungee&display=swap" rel="stylesheet">
 
         <!-- CSS -->
         <link rel="stylesheet" href="../css/maincss.css">
@@ -19,25 +27,48 @@
     <body>
         <header class="header">
             
-            <a href="../index.html">
-                <img class="imgLogo" src="../images/logo.jpg" alt="logoEmpresa">
+            <a href="index.html">
+                <img class="imgLogo" src="../images/logoandnombre.png" alt="logoEmpresa">
             </a>
             
             <nav>
                 <ul class="menu">
-                    <li><a class="menuItems" href="../index.html">Home</a></li>
-                    <li><a class="menuItems" href="quienesSomos.html">Quienes Somos?</a></li>
-                    <li><a class="menuItems" href="alquilar.html">Alquilar</a></li>
-                    <li><a class="menuItems" href="contact.html">Contacto</a></li>
+                    <li><a class="menuItemsblue" href="../index.html">Home</a></li>
+                    <li><a class="menuItemsviolet" href="quienesSomos.html">Quienes Somos?</a></li>
+                    <li><a class="menuItemsviolet" href="alquilar.html">Alquilar</a></li>
+                    <li><a class="menuItemsblue" href="contact.html">Contacto</a></li>
                 </ul>
             </nav>
 
         </header>
+
         <main>
-
+            <div class="contactCol">
+                <div class="contactDiv">
+                    <h2 class="h1contact">Envíenos un mensaje</h2>
+                    <p class="h1contact">Por favor, llena el formulario para comunicarte con nosotros respecto a cualquier pregunta o comentario que tengas, y nos pondremos en contacto contigo lo antes posible.</p>
+        
+                    <form class="form">
+                        <label for="">Nombre:</label>
+                        <input class="pgts" type="text"> <br>
+                        <label for="">Apellido:</label>
+                        <input class="pgts" type="text"/> <br>
+                        <label for="">Correo Electronico:</label>
+                        <input class="pgts" type="email"/> <br>
+                        <input class="pgts" type="checkbox"> Deseo recibir información sobre novedades y ofertas
+                        <input class="pgts" type="checkbox"> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos <br>
+                        <button class="pgts" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <img class="imgcontact" src="../images/contimg2.jpg" alt="">
+            </div>
         </main>
-        <footer>
+        <footer class="footerContact">
+            <img class="imgLogo" src="../images/logot.png" alt="">
 
+            <a href="../pages/contact.html">
+                <h3>Tienes alguna duda? No dudes es escribirnos!</h3>
+            </a>
         </footer>
     </body>
 </html>
