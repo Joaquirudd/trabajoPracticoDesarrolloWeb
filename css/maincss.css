@@ -53,6 +53,7 @@ main{
 
 .h1Imgtop{
     margin: 0%;
+    font-size: 70px;
     padding-top: 200px;
     text-align: center;
     position: relative;
@@ -210,7 +211,6 @@ a{    text-decoration: none;}
 
 .h2quienes-somos{
     padding-top: 100px;
-    padding-right: 100px;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -223,28 +223,32 @@ a{    text-decoration: none;}
 
  }
  .mainquienes-somos{
-    margin-left: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "Open Sans", sans-serif;
-    width: 500px;
     line-height: 30px;
     color: #8d8b8b;
-    margin-top: 22px;
+    padding-top: 2%;
 
- }
+}
 
- .img1-quienes-somos,.img2-quienes-somos,.img3-quienes-somos,.img4-quienes-somos{
+.mainquienes-somos p{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.img1-quienes-somos,.img2-quienes-somos,.img3-quienes-somos,.img4-quienes-somos{
     width: 500px;
 }
 
-.img1-somos, .img2-somos, .img3-somos, .img4-somos{
+.container-img-somos{
     width: 250px;
     height: 200px;
-    margin: 2%;
-
-
-}
-.img1-somos{
-    margin-left: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
 }
 
 
