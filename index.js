@@ -55,6 +55,19 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".img2-quienes-somos").mouseenter(function(){
+        $(".img2-quienes-somos").animate({
+            width: '300px',
+        })
+    })
+    $(".img2-quienes-somos").mouseleave(function(){
+        $(".img2-quienes-somos").animate({
+            width: '500px',
+        }) 
+    });
+});
+
 
 $(document).ready(function(){
     $(".img1-somos").mouseenter(function(){
