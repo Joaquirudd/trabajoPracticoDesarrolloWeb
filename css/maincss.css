@@ -129,7 +129,7 @@ main{
     text-align: center;
 }
 
-.imgindex2{
+.imgindex2,.imgindex3,.imgindex4{
     width: 300px;
     height: 400px;
 }
@@ -149,6 +149,7 @@ main{
 
 a{    text-decoration: none;}
 
+
 /* Alquilar */
 
 .casilla{
@@ -161,12 +162,11 @@ a{    text-decoration: none;}
     align-items: center;
 }
 
-.casilla img{
+.imgalquiler1,.imgalquiler2,.imgalquiler3,.imgalquiler4{
     padding-right: 5%;
     width: 500px;
     height: 400px;
 }
-
 .datos{
     height: 400px;
 }
@@ -304,4 +304,36 @@ a{    text-decoration: none;}
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-style: normal;   
+}
+
+/*Contacto jQuery*/
+#conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    width: 500px;
+    height: 350px;
+    padding: 2%;
+    margin: 5%;
+    margin-left: 500px;
+
+    font-size: x-large;
+    background-color: #fcf6b1;
+    border-radius: 5px;
+}
+
+#btnCerrar {
+    padding: 10px 20px;
+    background-color: #6c91bf;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-family: 'Arial', sans-serif;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
